@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9b542f9b83450f501fd19610feaad31b" label="Workspace Options" max_length="40" name="x_1840902_wrm_workspace_options" type="collection">
+        <element label="Workspace name" max_length="40" name="workspace_name" type="string"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="0" value="Available"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="3" value="Decommissioned"/>
+                <element inactive_on_update="false" label="Unavailable" sequence="1" value="Unavailable"/>
+                <element inactive_on_update="false" label="Under maintenance" sequence="2" value="Under maintenance"/>
+            </choice>
+        </element>
+        <element label="Workspace description" max_length="1000" name="workspace_description" type="string"/>
+        <element label="Max occupancy" max_length="40" name="max_occupancy" type="integer"/>
+        <element choice="3" label="Workspace type" max_length="40" name="workspace_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Focus Room" sequence="1" value="Focus Room"/>
+                <element inactive="true" inactive_on_update="true" label="Hot desk" sequence="2" value="hot_desk"/>
+                <element inactive_on_update="false" label="Collaboration Space" sequence="0" value="Collaboration Space"/>
+                <element inactive="true" inactive_on_update="true" label="Meeting room" sequence="7" value="meeting_room"/>
+                <element inactive="true" inactive_on_update="true" label="Focus room" sequence="5" value="focus_room"/>
+                <element inactive_on_update="false" label="Hot Desk" sequence="3" value="Hot Desk"/>
+                <element inactive="true" inactive_on_update="true" label="Collaboration space" sequence="6" value="collaboration_space"/>
+                <element inactive_on_update="false" label="Meeting Room" sequence="4" value="Meeting Room"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

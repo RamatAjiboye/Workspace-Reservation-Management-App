@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Workspace Reservation Management">230de71f83850f501fd19610feaad37e</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_1840902_wrm_reservation_tracker">assigned_to=javascript:gs.getUserID()^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserID()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>My reservations</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1840902_wrm_reservation_tracker</name>
+        <order>70</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1840902_wrm.wrm_agent</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-30 13:31:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ef6c02a783894f501fd19610feaad343</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>My reservations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Workspace Reservation Management" source="x_1840902_wrm">108d5b1f83050f501fd19610feaad3ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Reservation Management">108d5b1f83050f501fd19610feaad3ae</sys_scope>
+        <sys_update_name>sys_app_module_ef6c02a783894f501fd19610feaad343</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-30 15:07:08</sys_updated_on>
+        <timeline_page/>
+        <title>My reservations</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

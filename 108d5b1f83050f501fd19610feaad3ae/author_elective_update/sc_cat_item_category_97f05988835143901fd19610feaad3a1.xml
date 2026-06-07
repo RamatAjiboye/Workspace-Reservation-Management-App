@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Workspace Reservation Request">ee1b894c831143901fd19610feaad39b</sc_cat_item>
+        <sc_category display_value="Workspace Reservations">b25cc500835143901fd19610feaad371</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-31 22:24:37</sys_created_on>
+        <sys_id>97f05988835143901fd19610feaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace Reservations.Workspace Reservation Request</sys_name>
+        <sys_package display_value="Workspace Reservation Management" source="x_1840902_wrm">108d5b1f83050f501fd19610feaad3ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Reservation Management">108d5b1f83050f501fd19610feaad3ae</sys_scope>
+        <sys_update_name>sc_cat_item_category_97f05988835143901fd19610feaad3a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-31 22:24:37</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Workspace Reservation Management">108d5b1f83050f501fd19610feaad3ae</application>
+        <file_path/>
+        <instance_id>1b1d0c983b7b4618677f04e0b5e45a8e</instance_id>
+        <instance_name>dev283228</instance_name>
+        <name>sc_cat_item_category_97f05988835143901fd19610feaad3a1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Workspace Reservation Request">ee1b894c831143901fd19610feaad39b</sc_cat_item><sc_category display_value="Workspace Reservations">b25cc500835143901fd19610feaad371</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 22:24:37</sys_created_on><sys_id>97f05988835143901fd19610feaad3a1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workspace Reservations.Workspace Reservation Request</sys_name><sys_package display_value="Workspace Reservation Management" source="x_1840902_wrm">108d5b1f83050f501fd19610feaad3ae</sys_package><sys_policy/><sys_scope display_value="Workspace Reservation Management">108d5b1f83050f501fd19610feaad3ae</sys_scope><sys_update_name>sc_cat_item_category_97f05988835143901fd19610feaad3a1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 22:24:37</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>836097741</payload_hash>
+        <record_name>Workspace Reservations.Workspace Reservation Request</record_name>
+        <reverted_from/>
+        <source>92002f5383450f501fd19610feaad3ae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-31 22:24:37</sys_created_on>
+        <sys_id>53f05988835143901fd19610feaad3a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e80239c420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-31 22:24:37</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>1ff05988f85143905262384fa3d071a6</update_guid>
+        <update_guid_history>1ff05988f85143905262384fa3d071a6:836097741</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Workspace Reservations.Workspace Reservation Request">cd3111c8835143901fd19610feaad3c9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-31 22:25:33</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>04105928de5740e0bed1af39047a5100</sys_id>
+        <sys_metadata>97f05988835143901fd19610feaad3a1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace Reservations.Workspace Reservation Request</sys_name>
+        <sys_package display_value="Workspace Reservation Management" source="x_1840902_wrm">108d5b1f83050f501fd19610feaad3ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Reservation Management">108d5b1f83050f501fd19610feaad3ae</sys_scope>
+        <sys_scope_delete display_value="">047fe62f1fca4d41829400c9e4e89c81</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_97f05988835143901fd19610feaad3a1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_97f05988835143901fd19610feaad3a1">53f05988835143901fd19610feaad3a8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-31 22:25:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
